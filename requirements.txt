@@ -1,0 +1,12 @@
+numpy 
+torch
+opencv-python
+mysql-connector-python
+pyyaml
+tqdm
+scikit-learn
+pillow
+torchvision
+imgaug
+timm
+harvesters

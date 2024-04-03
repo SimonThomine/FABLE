@@ -1,0 +1,43 @@
+Config:
+  idCam: 1
+  imageSize: 256
+  half: true
+  detThresh: 0.6 
+  preciseDetThresh: 0.1 
+  fastProcess: False 
+  overlap: 10 
+  cropAnoMapDet: True
+  cropAnoMapPreciseDet: True
+  debugDrawing: True
+
+Training:
+  trainingMode: directory 
+  perinNoise_path: "../../datasets/dtd/images/"
+  phase: train 
+  featureExtractorTrain: False 
+
+Models:
+  halfPrecision: True
+  bigModel: Ids13_big
+  bigModelDG: DG_ids_big
+  smallModel: Ids13 
+  smallModelDG: DG_ids
+  data_path: data
+  smallModelName: reducedResnet18
+  bigModelName: reducedResnet18
+
+Database:
+  dbHost: host
+  localdbName: dbname
+  localusrName: username
+  localusrPwd: password
+
+Genicam:
+  cti: path/to/.cti
+  exposure: "10000"
+  height: "2048"
+  width: "3072"
+
+Local:
+  processType: directory 
+  video_path: "data/Ids13/" 

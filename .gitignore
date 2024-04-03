@@ -1,0 +1,9 @@
+mvtec_results/*
+**/__pycache__
+venv/*
+featureVisu/*
+.vscode/*
+.idea/
+logTest.log
+ConnexionBaseSSH
+data/*
